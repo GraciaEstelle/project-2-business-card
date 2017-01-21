@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ccddff"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.business.card.MainActivity">
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/patroon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        />
+    <TextView
+        android:id="@+id/name"
+
+        android:text="Gracia Estelle Latumahina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:layout_above="@id/portfolio"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize="26sp"
+        android:paddingBottom="30dp"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/portfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/info"
+        android:text="Bekijk hier mijn portfolio"/>
+
+</RelativeLayout>
